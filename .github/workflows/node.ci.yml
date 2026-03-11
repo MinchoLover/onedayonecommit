@@ -1,0 +1,28 @@
+name: Node.js CI
+
+# 언제 이 워크플로우를 실행할지 정의합니다.
+on:
+  push:
+    branches: [ "main" ] # main 브랜치에 코드가 올라올 때
+  pull_request:
+    branches: [ "main" ] # PR이 올라올 때
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # 가상 리눅스 환경에서 실행
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4 # 내 코드를 가상 환경으로 가져오기
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4 # 노드 환경 설치
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm install # 필요한 라이브러리(Jest 등) 설치
+      
+    - name: Run unit tests
+      run: npx jest # 우리가 만든 테스트 실행
