@@ -1,5 +1,5 @@
 # 🛠 Engineering Utilities & Patterns
-![Node.js CI](https://github.com/MinchoLover/onedayonecommit/actions/workflows/node-ci.yml/badge.svg)
+[![Node.js CI](https://github.com/MinchoLover/onedayonecommit/actions/workflows/node.ci.yml/badge.svg)](https://github.com/MinchoLover/onedayonecommit/actions/workflows/node.ci.yml)
 
 이 저장소는 실무 수준의 엔지니어링 패턴과 유틸리티를 구현하고, 자동화된 테스트로 품질을 검증하는 개인 프로젝트입니다.
 
