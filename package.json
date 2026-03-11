@@ -1,0 +1,27 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "- **withRetry**: 지수 백오프 및 무작위 지터를 적용한 안정적인 비동기 재시도 로직. (2026-03-09)   - 🧪 **Jest 단위 테스트 추가**: 성공, 간헐적 실패 후 성공, 최종 실패 엣지 케이스 검증 완료. (2026-03-10)",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinchoLover/onedayonecommit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MinchoLover/onedayonecommit/issues"
+  },
+  "homepage": "https://github.com/MinchoLover/onedayonecommit#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}
